@@ -1,7 +1,7 @@
 data(iris)
 
 set.seed(1234)
-kc <- kmeans(iris[, 1:4], 3)
+kc <- kmeans(iris[, 1:4], 3)  # K-Means clustering algorithm
 
 shinyServer(
         function(input, output) {
